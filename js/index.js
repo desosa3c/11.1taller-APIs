@@ -71,11 +71,6 @@ let generateGif = () => {
                             document.body.removeChild(hiddenInput);
                         });
                 };
-
-                let copyBtn2 = document.createElement('button');
-                copyBtn2.classList.add('copy-btn2');
-                copyBtn2.innerHTML = `<i class='bx bx-link-alt'></i>`;
-
                 //Le agrego el boton a cada tarjeta.
                 container.append(copyBtn);
                 document.querySelector(".wrapper").append(container);
